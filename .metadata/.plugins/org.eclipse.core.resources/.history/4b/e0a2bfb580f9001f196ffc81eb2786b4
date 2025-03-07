@@ -1,0 +1,23 @@
+package dowhile문;
+
+public class Ex01dowhile기초 {
+
+	public static void main(String[] args) {
+//		do - while 문
+//		- while 의 조건을 검사하기 전에, 무조건 한 번은
+//		실행구문을 실행시켜주는 반복문
+		
+//		> 검사조건이 false 이어도 한 번은 실행된다
+		
+//		do - while 문의 구조
+		
+//		- do {로직}while(조건); > 세미콜론 필수!
+		
+		int a = 3;
+		do {
+			System.out.println("a는 0이다");
+		} while(a==0);
+
+	}
+
+}

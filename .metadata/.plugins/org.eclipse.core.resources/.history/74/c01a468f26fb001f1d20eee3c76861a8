@@ -1,0 +1,10 @@
+package 배열실습;
+
+public class Ex06배열실습_로또중복제거 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

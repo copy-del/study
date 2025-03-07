@@ -1,0 +1,16 @@
+package 단항이항연산자;
+
+public class Ex04대입연산자 {
+
+	public static void main(String[] args) {
+		
+		
+		int num = 29
+		num -= 23
+		System.out.println(num);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package while문;
+
+import java.util.Scanner;
+
+public class Ex05while문예제 {
+
+	public static void main(String[] args) {
+
+//		A,B 숫자를 입력받는다.
+//		A-B를 출력한다.
+//		A와 B가 모두 0을 입력받으면 프로그램이 종료된다.
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("A 입력 >> ");
+		int A = sc.nextInt();
+		System.out.println("B 입력 >> ");
+		int B = sc.nextInt();
+
+		while (A != 0 && B != 0) {
+			System.out.println("결과 >> " + (A - B));
+			System.out.println("A 입력 >> ");
+			A = sc.nextInt();
+			System.out.println("B 입력 >> ");
+			B = sc.nextInt();
+		}System.out.println("프로그램 종료!");
+
+	}
+
+}

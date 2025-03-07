@@ -1,0 +1,18 @@
+package 입출력;
+
+public class Ex01입출력 {
+
+	public static void main(String[] args) {
+//		입력과 출력을 해보자
+		
+//		1. 출력문
+//		System.out.println();  >  출력 후 개행.
+//		System.out.print();    >  
+		
+		
+		System.out.print(3);
+		System.out.println(3);
+
+	}
+
+}

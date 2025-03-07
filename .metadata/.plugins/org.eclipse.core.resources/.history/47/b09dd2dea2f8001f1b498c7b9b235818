@@ -1,0 +1,15 @@
+package 단항이항연산자;
+
+public class Ex04증감과대입 {
+
+	public static void main(String[] args) {
+//		대입연산자
+//		- 내 값을 기반으로 연산을 해서 다시 대입
+//		- +=, -=, *=, /=, %= ...
+		int a =3;
+		a*=4; //a = a*4
+		System.out.println(a);
+
+	}
+
+}

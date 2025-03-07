@@ -1,0 +1,10 @@
+package dowhile문;
+
+public class Ex01dowhile기초 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
