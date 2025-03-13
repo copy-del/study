@@ -19,14 +19,14 @@ public class Ex07배열실습_로또중복제거 {
 			num[0] = a;
 			for (int i = 0; i < num.length; i++) {
 				a = ran.nextInt(10) + 1;
-				if (num[i] == a) {
-					
-					break;
-				} else {
-					
+				if (num[i] != a) {
 					num[i] = a;
+					break;
 				}
-			}
+					
+					
+				}
+			
 			if (num.length == 5) {
 				break;
 			}
