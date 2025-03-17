@@ -28,7 +28,7 @@ public class Child extends Parent {
 		System.out.println("아주아주 맛있는 비빔밥을 만든다");
 	}
 	
-	// 메소드 오버라이딩(method overrriding)
+	// 메소드 오버라이딩(method overriding)
 	// : 상속이 전제되어있어야 한다.
 	// : 부모 클래스가 가지고 있는 메소드의 틀(리턴타입, 메소드명, 매개변수)을 그대로 가지고 와서
 	// 			{ } 안쪽의 로직만 ***재정의*** 하는 기법

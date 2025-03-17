@@ -13,10 +13,10 @@ public abstract class Employee {
 
 	public Employee(String empno, String name, int pay) {
 		super();
-		this.empno=empno;
-		this.name=name;
-		this.pay=pay;
-		
+		this.empno = empno;
+		this.name = name;
+		this.pay = pay;
+
 	}
 
 	protected String empno;// 사번
