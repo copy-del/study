@@ -4,7 +4,9 @@ INDEX VERSION 1.134+C:\Users\a\OneDrive\바탕 화면\study\.metadata\.plugins\o
 1446163631.index
 1865797976.index
 4254616028.index
+192081947.index
 121515182.index
+737982949.index
 3407348974.index
 250661291.index
 88631608.index
@@ -13,3 +15,4 @@ INDEX VERSION 1.134+C:\Users\a\OneDrive\바탕 화면\study\.metadata\.plugins\o
 4221537699.index
 827462111.index
 1990157805.index
+822062410.index
