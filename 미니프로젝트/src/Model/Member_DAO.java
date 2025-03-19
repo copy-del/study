@@ -20,7 +20,7 @@ public class Member_DAO {
 	int result = 0; // return되는 int 형태의 결과 저장
 	ResultSet rs = null; // return되는 테이블 형태의 결과를 저장
 
-	Controller control = new Controller();
+//	Controller control = new Controller();
 //	public void getConn() {
 //		try {// DB드라이버 로드
 //			Class.forName("oracle.jdbc.driver.OracleDriver");
@@ -66,7 +66,6 @@ public class Member_DAO {
 //		return result;
 //	}
 
-
 	public int fight() {
 		int count = 1;
 		int Playerhp = 80;
@@ -85,6 +84,8 @@ public class Member_DAO {
 			}
 			System.out.println("플레이어 HP : " + Playerhp + " 경비원 HP : " + Enemyhp);
 			if (Playerhp <= 0) {
+				System.out.println("결투에서 패배했습니다");
+
 				break;
 			}
 			System.out.println("당신의 공격! 어느쪽으로 공격하시겠습니까? /n [1] 왼쪽 [2] 오른쪽");
@@ -98,12 +99,13 @@ public class Member_DAO {
 			}
 			System.out.println("플레이어 HP : " + Playerhp + " 경비원 HP : " + Enemyhp);
 			if (Enemyhp <= 0) {
+				System.out.println("결투에서 승리했습니다");
 				break;
 			}
 
 			count++;
-		}
-		return Playerhp;
+		}int score = Playerhp;
+		return score;
 	}
 //	public void scoreupdate() {
 //		getConn();
